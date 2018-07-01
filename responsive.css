@@ -1,0 +1,41 @@
+@media all and (max-width: 1170px) {
+    #main-container {
+        background-image: url(obrazy/man-2.jpg);
+        height: 70vh;
+        justify-content: flex-end;
+    }
+    
+    #header {
+        align-self: flex-start;
+        padding-right: 30px;
+        padding-top: 40px;
+    }
+    
+    span {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #main-container {
+        background-image: url(obrazy/man-1.jpg);
+        height: 50vh;
+        justify-content: center;
+    }
+    
+    #responsive-header {
+        display: block;
+        color: #000;
+        text-align: center;
+        font-family: verdana;
+        text-transform: uppercase;
+    }
+    
+    #header {
+        display: none;
+    }
+}

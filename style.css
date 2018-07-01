@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: o;
+}
+
+#main-container {
+    display: flex;
+    background-image: url(obrazy/man-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#header {
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 20px;
+    align-self: center;
+    font-family: verdana;
+}
+
+span {
+    font-size: 22px;
+}
+
+#responsive-header {
+    display: none;
+}
